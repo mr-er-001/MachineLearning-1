@@ -148,3 +148,4 @@ class GaussianNB(MultinomialNB):
         #given mu and sigma , return Gaussian distribution probability for target_value
         def _get_xj_prob(self,mu_sigma,target_value):
                 return self._prob_gaussian(mu_sigma[0],mu_sigma[1],target_value)
+		Console.WriteLine("Muhammad Ehsan");
